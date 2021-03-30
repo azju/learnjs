@@ -1,4 +1,4 @@
-const timerGame = (callback) => {
+export const timerGame = (callback) => {
   console.log("Ready ... go!");
   setTimeout(() => {
     console.log("Time is up -- stop!");
@@ -6,7 +6,7 @@ const timerGame = (callback) => {
   }, 1000);
 };
 
-const infiniteTimerGame = (callback) => {
+export const infiniteTimerGame = (callback) => {
   console.log("ready go");
   setTimeout(() => {
     console.log("Time up! 10 seconds before the next game starts...");

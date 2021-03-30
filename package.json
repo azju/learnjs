@@ -1,0 +1,31 @@
+{
+  "name": "learnjs",
+  "version": "0.0.1",
+  "description": "Bits and pieces in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azju/learnjs.git"
+  },
+  "keywords": ["JS", "Javascript"],
+  "author": "Zhongyu Ju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azju/learnjs/issues"
+  },
+  "homepage": "https://github.com/azju/learnjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
